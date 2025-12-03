@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css'
 import { LineChart } from './LineChart';
 import { VariationData, VariationDef, type Conversion } from './models/data';
-import data from "../src/data.json";
+import data from "../public/data.json"
 
 function App() {
   const [variationDef, setVariationDef] = useState<VariationDef[]>([]);
