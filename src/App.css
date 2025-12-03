@@ -1,0 +1,34 @@
+.axisX text {
+  text-anchor: start;
+}
+
+.baseGridLine line {
+  stroke: white;
+}
+
+.tooltip text {
+  font-size: 12px;
+}
+
+.tooltip .contentTitle {
+  font-weight: bold;
+}
+
+.tooltipLine {
+  stroke: #bb0c0f;
+  stroke-width: 2px;
+}
+
+.tooltipLinePoint {
+  fill: #bb0c0f;
+}
+
+.contentBackground{
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.filterContainer {
+  display: flex;
+  margin-right: 10px;
+}
